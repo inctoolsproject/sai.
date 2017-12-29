@@ -1,28 +1,6 @@
 const LineConnect = require('./connect');
 const LINE = require('./main.js');
-console.info("\n\
-   .::::                                 .::          .::      .::\n\
- .:    .::                               .::           .::   .::  \n\
-.::           .::       .::       .::    .::   .::      .:: .::   \n\
-.::         .::  .::  .::  .::  .::  .:: .:: .:   .::     .::     \n\
-.::   .::::.::    .::.::    .::.::   .:: .::.::::: .::  .:: .::   \n\
- .::    .:  .::  .::  .::  .::  .::  .:: .::.:         .::   .::  \n\
-  .:::::      .::       .::         .:: .:::  .::::   .::      .::\n\
-                                 .::                              \n");
-console.info("\n\
-=========================================\n\
-BotName: LINE Alphat JS\n\
-Version: FORKED VERSION\n\
-Thanks to @Alfathdirk @TCR_TEAM\n\
-=========================================\n\
-\nNOTE : This bot is made by @Alfathdirk @TCR_TEAM and has been forked by @GoogleX !\n\
-***Copyright belongs to the author***");
 
-/*
-| This constant is for auth/login
-| 
-| Change it to your authToken / your email & password
-*/
 const auth = {
 	authToken: '',
 	certificate: '',
